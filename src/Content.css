@@ -1,0 +1,13 @@
+.CentrePage {
+	max-width: 900px;
+	margin: 0 auto;
+	height: 100vh;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	background: #ffffff;
+}
+
+.CentreContent {
+	margin: 0px;
+	padding: 16px;
+}

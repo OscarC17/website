@@ -1,6 +1,9 @@
 .Navbar {
+	position: absolute;
+	width: calc(100vw - 20px);
 	padding: 10px 10px 10px 10px;
-	background-color: #aaaaaa;
+	background-color: #ffffff;
+	border-bottom: solid black 1px;
 }
 
 .RightAlign {
@@ -12,14 +15,19 @@
 	height: 2ex;
 }
 
-a:link {
-	color: var(--linktext);
-}
-
-a:visited {
-	color: var(--linktext);
-}
-
 a {
 	text-decoration:none;
+	color: #000000;
+	-o-transition:color .5s linear;
+	-ms-transition:color .5s linear;
+	-moz-transition:color .5s linear;
+	-webkit-transition:color .5s linear;
+	transition:color .5s linear;
 }
+
+a:hover {
+	color: #990000;
+}
+
+
+
