@@ -1,0 +1,25 @@
+.Navbar {
+	padding: 10px 10px 10px 10px;
+	background-color: #aaaaaa;
+}
+
+.RightAlign {
+	position: relative;
+	float: right;
+}
+
+.Small {
+	height: 2ex;
+}
+
+a:link {
+	color: var(--linktext);
+}
+
+a:visited {
+	color: var(--linktext);
+}
+
+a {
+	text-decoration:none;
+}
