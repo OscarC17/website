@@ -6,7 +6,7 @@ import React from 'react';
 function Navbar() {
 	return (
 		<nav className="Navbar">
-        Oscar Coghlan
+        ~/website/src/index.js
 		<span className="RightAlign">
 		<QuickLink text={'About'} dest={'#About'} /> &nbsp;&nbsp; 
 		<QuickLink text={'Projects'} dest={'#Projects'} /> &nbsp;&nbsp; 

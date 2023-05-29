@@ -9,5 +9,10 @@
 
 .CentreContent {
 	margin: 0px;
-	padding: 16px;
+	padding: 4rem 2rem;
+}
+
+.AsciiBox {
+	white-space: pre-wrap;
+	width: 65em;
 }

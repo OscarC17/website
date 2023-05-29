@@ -2,15 +2,22 @@ import './Content.css';
 import QuickLink from './QuickLink';
 import React from 'react';
 
+let getText = "  ";
+
 
 function Content() {
 	return (
 		<div className="CentrePage">
-		<p className="CentreContent"> <br/> <br/>
-		Hi! The name's <br/>
-		</p>
+		<span className="CentreContent">
+		<pre className="AsciiBox">
+		</pre>
+		</span>
 		</div>
 	);
 }
+
+
+
+
 
 export default Content;
