@@ -12,7 +12,7 @@ body {
   background-color: #000000;
 	background-image: url("img/code.png"),url("img/codesml.png");
 	background-repeat: no-repeat, no-repeat;
-	background-size: cover cover;
+	background-size: 100%;
 	z-index: -2;
 }
 
@@ -31,4 +31,30 @@ html {
 	z-index: -1;
 	width: 100vw;
 	height: 100vh;
+}
+
+.buttonStyle {
+background-color: #000000;
+  border: none;
+  border-radius: 12px;
+  border: 2px solid white;
+  color: #FFFFFF;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  	-o-transition:color .15s linear;
+	-ms-transition:color .15s linear;
+	-moz-transition:color .15s linear;
+	-webkit-transition:color .15s linear;
+	transition:color .15s linear;
+}
+
+
+.buttonStyle:hover {
+  background-color: #220000; 
+  color: white;
 }
