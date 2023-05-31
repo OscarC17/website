@@ -1,17 +1,18 @@
 import './Navbar.css';
-import QuickLink from './QuickLink';
 import React from 'react';
 
 
 function Navbar() {
 	return (
 		<nav className="Navbar">
-        ~/website/src/index.js
+		<a href="/index.js">Home</a> &nbsp;&nbsp; <a href="blog.js">Blog</a>
 		<span className="RightAlign">
-		<QuickLink text={'About'} dest={'#About'} /> &nbsp;&nbsp; 
-		<QuickLink text={'Projects'} dest={'#Projects'} /> &nbsp;&nbsp; 
-		<QuickLink text={'Experience'} dest={'#Experience'} /> &nbsp;&nbsp;
-		<QuickLink text={'Contact'} dest={'#Contact'} />
+		<a href="#About">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#Portfolio">Portfolio</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#Experience">Experience</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#Contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="./oscarcresume.pdf">Resume</a>
 		</span>
 		</nav>
 	);
